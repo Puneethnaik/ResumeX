@@ -12,30 +12,43 @@
     tools:context="com.example.puneeth.resumex.academicsPage">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
         android:layout_alignParentTop="true"
         >
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@mipmap/profile_photo"
             android:transitionName="profile_photo"
             />
 
-        <ImageView
-            android:layout_marginTop="-15dp"
-            android:layout_marginLeft="-20dp"
-            android:layout_width="195dp"
-            android:layout_height="195dp"
-            android:background="@mipmap/profile_text"
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:text="Puneeth N Naik"
             android:transitionName="profile_text"
+            android:textSize="20dp"/>
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/academics"
+            android:transitionName="academics_icon"
             />
 
     </LinearLayout>
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="380dp"
         android:layout_alignParentBottom="true"
+        android:background="@drawable/background_gradient"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,10 +57,49 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#ffffff"
-                android:text="hellow"
 
-                />
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="hellow" />
+
 
         </LinearLayout>
     </ScrollView>

@@ -8,6 +8,6 @@ public class portfolioPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_academics_page);
+        setContentView(R.layout.activity_portfolio_page);
     }
 }

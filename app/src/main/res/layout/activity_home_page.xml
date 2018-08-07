@@ -32,15 +32,14 @@
             android:id="@+id/profile_photo"
             />
 
-        <ImageView
-            android:layout_marginTop="-15dp"
-            android:layout_marginLeft="-20dp"
-            android:layout_width="195dp"
-            android:layout_height="195dp"
-            android:background="@mipmap/profile_text"
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="55dp"
+            android:text="Puneeth N Naik"
             android:transitionName="profile_text"
             android:id="@+id/profile_text"
-            />
+            android:textSize="20dp"/>
 
     </LinearLayout>
 
@@ -62,7 +61,10 @@
             <ImageView
                 android:layout_width="55dp"
                 android:layout_height="55dp"
-                android:src="@drawable/academics"/>
+                android:src="@drawable/academics"
+                android:id="@+id/academics_icon"
+                android:transitionName="academics_icon"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -77,7 +79,9 @@
             <ImageView
                 android:layout_width="55dp"
                 android:layout_height="55dp"
-                android:src="@drawable/portfolio"/>
+                android:src="@drawable/portfolio"
+                android:id="@+id/portfolio_icon"
+                android:transitionName="portfolio_icon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -91,7 +95,10 @@
             <ImageView
                 android:layout_width="55dp"
                 android:layout_height="55dp"
-                android:src="@drawable/accomplishments"/>
+                android:src="@drawable/accomplishments"
+                android:id="@+id/accomplishments_icon"
+                android:transitionName="accomplishments_icon"
+                />
         </LinearLayout>
 
 
