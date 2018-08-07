@@ -17,10 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".academicsPage"></activity>
-        <activity android:name=".accomplishmentsPage"></activity>
-        <activity android:name=".portfolioPage"></activity>
-
+        <activity
+            android:name=".academicsPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accomplishmentsPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".portfolioPage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AcademicDisplay"></activity>
     </application>
 
 </manifest>

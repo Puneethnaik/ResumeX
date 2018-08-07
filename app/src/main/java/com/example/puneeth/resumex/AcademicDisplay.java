@@ -1,14 +1,14 @@
 package com.example.puneeth.resumex;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class portfolioPage extends AppCompatActivity {
+public class AcademicDisplay extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_portfolio_page);
+        setContentView(R.layout.activity_academic_display);
         getSupportActionBar().hide();
     }
 }
